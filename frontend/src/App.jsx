@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://192.168.0.105:8002",
+  baseURL: "http://127.0.0.1:8002",
 });
 
 const defaultStats = {
